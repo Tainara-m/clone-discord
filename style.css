@@ -1,0 +1,179 @@
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+}
+
+html, body {
+    background-color: #FFDFB9;
+    scroll-behavior: smooth;
+    overscroll-behavior: none; /* bloqueia o scrool além do conteúdo */
+    scrollbar-width: none; /* esconde a barra (FireFox) */
+    scroll-behavior: smooth; /* Deixa a rolagem suave */
+    overflow-x: hidden; /* Bloqueia a rolagem horizontal */
+}
+
+/* esconde a barra (Chrome, Safari e Edge) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+#home{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+h1{
+    font-family: "Luckiest Guy";
+    font-size: 3.5rem;
+    font-weight: light;
+    width: 400px;
+    color: #fff;
+    margin-top:80px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#text{
+    width: 800px;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color:#fff;
+    margin-bottom:32px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.windows{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #8872ee;
+    font-family: "Luckiest Guy";
+    font-weight: lighter;
+    display: flex;    
+    justify-content: center;
+    align-items: center;    
+}
+
+.nav{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #402e91;
+    font-family: "Luckiest Guy";
+    font-weight: lighter;
+    display: flex;    
+    justify-content: center;
+    align-items: center; 
+}
+
+#presentation{
+    display: flex;   
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+img{
+    width: 500px;
+    margin-left: 50px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-family: Arial;
+}
+
+h3{
+    font-weight: bolder;
+}
+
+#voice{
+    display: flex;   
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(159, 200, 236, 0.3);    
+}
+
+#coach{
+    display: flex;   
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(184, 217, 245, 0.3);     
+}
+
+#tec{
+    display: flex;   
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(148, 198, 241, 0.3); 
+}
+
+h2{
+    font-family: "Luckiest Guy";
+    color:#402e91;
+    font-size: 40px;
+    text-align: center;
+}
+
+.subtitle1{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    font-family: Arial;  
+    text-align: center;  
+}
+
+.footer{
+    background-color: #23272A;
+    width: 100vw;
+    height: 15vh;
+    display: flex;   
+    justify-content: center;
+    align-items: center; 
+}
+
+.group{
+    width: 200px;
+    height: auto;
+}
